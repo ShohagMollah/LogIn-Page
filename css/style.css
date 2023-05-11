@@ -1,0 +1,115 @@
+/* Universal Selector  */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: 0;
+    outline: 0;
+
+}
+
+/* Name Selector  */
+
+body {
+    background-color: bisque;
+    background-image: url("../image/loginpage.webp");
+}
+
+select {
+    width: 150px;
+    height: auto;
+
+}
+
+/* ID selector  */
+
+#admin-panel {
+    background-color: aquamarine;
+    color: black;
+    width: 50%;
+    margin: 5% auto;
+    padding: 25px;
+    text-align: center;
+}
+
+/* Descendant Selector  */
+#admin-panel h1 {
+    font-size: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#admin-panel img {
+    display: block;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Grouping Selector  */
+
+input, label {
+    display: block;
+    
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    line-height: 10px;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+input {
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+
+
+/* Pseudo Element Selector  */
+
+input::placeholder {
+    color: black;
+}
+
+/* Class Selector */
+
+.btn {
+
+    width: 50%;
+    margin: 2px auto;
+    transition: ease-in 0.8s;
+    text-transform: uppercase;
+}
+
+/* Pseudo Class Selector  */
+
+.btn:hover {
+    background-color: black;
+    color: aquamarine;
+}
+
+
+.pg {
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pg a {
+    text-transform: capitalize;
+    color: rgb(221, 116, 116);
+}
+
+.pg a:hover {
+    color: blue;
+}
